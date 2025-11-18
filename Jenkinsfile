@@ -13,8 +13,8 @@ pipeline {
         stage('Checkout Source Code') {
             steps {
                 git branch: 'main', 
-		url: 'git@github.com:myersj2/midterm.git', 
-		credentialsId: '7f5c735d-56e5-437a-953e-cc285272b5d1'
+		url: 'https://github.com/myersj2/midterm.git' 
+
             }
         }
 
