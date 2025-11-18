@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout Source Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/myersj2/midterm.git'
+                git branch: 'main', url: 'git@github.com:myersj2/midterm.git' //original: https://github.com/myersj2/midterm.git
             }
         }
 
